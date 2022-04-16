@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 
-
-import ExpenseList from "./components/expense_list/ExpenseList";
 import NewExpense from "./components/new_expense/NewExpense";
+import ExpenseList from "./components/expense_list/ExpenseList";
 
 const startingExpenses = [
   {
@@ -29,7 +28,7 @@ const startingExpenses = [
 function App() {
   const [expenses, setExpenses] = useState(startingExpenses);
 
-  const addExpenseHandler = (expense) => {
+  const newExpenseHandler = (expense) => {
     expense.date = new Date(expense.date);  // Convert string to date
     expense.id = Math.random().toString();
 
@@ -38,7 +37,7 @@ function App() {
 
   return (
     <div>
-      <NewExpense onAddExpense={addExpenseHandler} />
+      <NewExpense onNewExpense={newExpenseHandler} />
       <ExpenseList expenses={expenses}/>
     </div>
   );

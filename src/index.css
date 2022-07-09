@@ -1,15 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 /
+44 / 52 / 62 / 74 / 86 / 98
+
+--- 02 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 /
+80 / 96 / 128
+
+--- 03 COLORS
+
+- Purples:
+  #40005d
+  #510674
+  #a893ee
+
+- Greys
+  #1f1f1f
+  #3f3f3f
+  #4b4b4b
+
+--- 04 BORDER-RADIUS
+
+Default: 12px
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  /* font-size: 10px */
+  font-size: 62.5%;
 }
 
 body {
-  margin: 0;
   background-color: #3f3f3f;
 }
-

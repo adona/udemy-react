@@ -3,7 +3,8 @@
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  margin: 1rem 0;
+  margin: 1.6rem 0;
+  font-size: 1.6rem;
 }
 
 .expenses-filter label {
@@ -11,8 +12,10 @@
   color: white;
 }
 
-#expenses-filter__dropdown {
-  padding: 0.5rem 2rem;
+#expenses-filter-dropdown {
+  font: inherit;
+  padding: 0.8rem 5.2rem;
   font-weight: bold;
+  font-size: 1.6rem;
   border-radius: 6px;
 }

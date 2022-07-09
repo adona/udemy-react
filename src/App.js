@@ -8,6 +8,7 @@ function App() {
 
   const newExpenseHandler = (expense) => {
     expense.date = new Date(expense.date); // Convert string to date
+    expense.amount = parseFloat(expense.amount);
     expense.id = Math.random().toString();
 
     setExpenses((prevExpenses) => [expense, ...prevExpenses]);

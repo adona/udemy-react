@@ -1,0 +1,23 @@
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.field label {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.field input {
+  font-size: 1.6rem;
+  border: 1px solid #ccc;
+  padding: 0.25rem;
+}

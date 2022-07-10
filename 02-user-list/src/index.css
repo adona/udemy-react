@@ -14,7 +14,9 @@
 --- 03 COLORS
 
 - Primary
+
 - Greys
+  #1f1f1f
 
 --- 04 BORDER-RADIUS
 
@@ -28,10 +30,14 @@ Default
   padding: 0;
 }
 
-body {
+html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   /* font-size: 10px */
   font-size: 62.5%;
+}
+
+body {
+  background-color: #1f1f1f;
 }

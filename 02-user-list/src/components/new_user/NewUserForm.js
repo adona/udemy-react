@@ -46,7 +46,7 @@ function NewUserForm(props) {
         <Modal
           title={modalTitle}
           message={modalMessage}
-          handleOnClose={() => setInvalid(false)}
+          onClose={() => setInvalid(false)}
         ></Modal>
       )}
     </form>

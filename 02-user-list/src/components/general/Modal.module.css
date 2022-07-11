@@ -1,0 +1,43 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 60rem;
+  max-width: 95%;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #4f005f;
+  color: white;
+  padding: 1.6rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.content {
+  padding: 2.4rem 1.6rem 1.6rem;
+  font-size: 1.6rem;
+}
+
+.message {
+  margin-bottom: 3.6rem;
+}
+
+.button-container {
+  text-align: right;
+}
